@@ -21,7 +21,7 @@ int main(int argc, const char *argv[])
 	return 0;
 }
 
-void eratosthenes_sieve(long unsigned int *n)
+void eratosthenes_sieve(unsigned long int *n)
 {
 	unsigned long int i, j;
 	unsigned long int max = *n;
